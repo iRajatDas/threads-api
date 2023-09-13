@@ -220,4 +220,39 @@ export const APPS: AppRegistry[] = [
       github_username: 'farizrifqi',
     },
   },
+  {
+    name: 'ReThreads',
+    tags: ['app'],
+    threads_username: 'newttt0n',
+    url: 'https://rethreads.pro',
+    description:
+      'Turn Meta Threads and replies into beautiful image post with AI.',
+    avatar: '/assets/apps/rethreads.png',
+    author: {
+      name: 'Newton',
+      github_username: 'Newt0n',
+    },
+  },
+{
+    name: 'Yout Gpt',
+    tags: ['bot'],
+    threads_username: 'youtgpt',
+    repository: 'https://github.com/steveyout/threads-gpt',
+    description: 'A threads.net bot to automatically reply to mentions with sarcastic replies from chatgpt',
+    author: {
+      name: 'Steve Yout',
+      threads_username: 'steveyout',
+    },
+  },
+{
+    name: 'Threstagram',
+    tags: ['app', 'ui'],
+    threads_username: 'dunsincodes',
+    repository: 'https://github.com/Dun-sin/threstagram',
+    description: 'Convert your threads posts to images for instagram and other social medias',
+    author: {
+      name: 'Dunsin',
+      github_username: 'Dun-sin',
+    },
+  },
 ];
